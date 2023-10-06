@@ -1,0 +1,14 @@
+.div1{
+
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background-color: blue;
+    color:white;
+    width:600px;
+    padding:0px;
+    }
+p{
+    margin:0px;
+}
