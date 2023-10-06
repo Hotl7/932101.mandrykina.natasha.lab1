@@ -1,0 +1,29 @@
+.conteiner{
+    display:flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+.top_conteiner{
+    background-color: green;
+    width:500px;
+    color:white;
+    margin:20px;
+
+
+
+}
+.bottom_conteiner{
+    background-color: blue;
+    width:500px;
+    border:40px;
+    padding:40px;
+    color:white;
+
+
+}

@@ -1,0 +1,16 @@
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width:590px;
+    background-color: blue;
+    position: fixed;
+}
+p{
+    margin:0px;
+    color:white;
+}
+img{
+    float:right;
+}

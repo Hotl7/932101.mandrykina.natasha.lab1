@@ -1,0 +1,53 @@
+*{
+    color:white;
+}
+.lilac_div{
+    position:static;
+    background-color: blueviolet;
+    height:100px;
+    width:140px;
+
+}
+.red_div{
+    position: relative;
+    background-color: darkred;
+    height:100px;
+    width:140px;
+
+}
+.orange_div{
+    background-color: peru;
+    height:100px;
+    width:140px;
+    position: relative;
+    left: 30px;
+    top:-30px;
+
+}
+.pink_div{
+    background-color: indianred;
+    height:300px;
+    width:450px;
+    position: relative;
+    
+
+}
+.purple_div{
+    background-color: indigo;
+    height:150px;
+    width:210px;
+    position:absolute;
+    right:0px;
+    top:90px;
+
+
+}
+.green_div{
+    height:100px;
+    width:100px;
+    background-color: forestgreen;
+    position:fixed;
+    bottom:0px;
+    right:0em;
+
+}
