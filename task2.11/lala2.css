@@ -1,0 +1,23 @@
+.content{
+    flex-grow: 2;
+    flex-shrink: 2;
+    background-color: aqua;
+   
+
+
+}
+p{
+    margin:0px;
+}
+
+.div1{
+    display:flex;
+    border: 1px solid green;
+    flex-direction: row;
+    width:100%;
+
+}
+.img{
+    flex-shrink: 0;
+
+}
