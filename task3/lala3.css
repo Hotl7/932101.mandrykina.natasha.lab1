@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: green;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;  
+
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+
+.nav {
+    width: 200px;
+
+    flex-shrink: 0;
+    background-color: red;
+    width: 250px;
+    flex-grow: 0;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.nav_items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+a {
+    margin-top: 10px;
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+a:hover {
+    background-color: green;
+}
+
+.section {
+    margin: 20px;
+    max-width: 600px;
+    flex: auto 1 1;
+}
+
+.sec_text {
+    text-align: justify;
+}
+
+.sec_text::first-letter {
+    font-size: 130%;
+    color: red;
+}
+.sec_text::selection{
+    background-color: green;
+    color:white;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+}
+.content_h1{
+    margin:10px;
+}
